@@ -1,10 +1,10 @@
 {
-  "name": "next-image-unicode-bug",
+  "name": "next-unicode-bugs",
   "description": "",
   "author": "Jón Rúnar Helgason",
   "version": "1.0.0",
   "license": "MIT",
-  "repository": "https://github.com/jonrh/next-image-unicode-bug",
+  "repository": "https://github.com/jonrh/next-unicode-bugs",
   "dependencies": {
     "next": "10.0.4",
     "react": "17.0.1",
