@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Index = () => (
   <>
-    <p>An image should be displayed below:</p>
+    <p>An image with a non-latin src should be displayed below:</p>
     <Image
       src="/01-тест.png"
       alt="Image with a non-latin src"
@@ -12,8 +12,11 @@ const Index = () => (
       height={48}
     />
 
-    <p>Link: <Link href="/hæ">/hæ</Link></p>
-    <p>a: <a href="/hæ">/hæ</a></p>
+    <p>Non-latin routes:</p>
+    <ul>
+      <li><Link href="/тест">/тест</Link></li>
+      <li><Link href="/hæ">/hæ</Link></li>
+    </ul>
   </>
 );
 
