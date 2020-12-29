@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Index = () => (
   <>
@@ -10,6 +11,9 @@ const Index = () => (
       width={113}
       height={48}
     />
+
+    <p>Link: <Link href="/hæ">/hæ</Link></p>
+    <p>a: <a href="/hæ">/hæ</a></p>
   </>
 );
 
